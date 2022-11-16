@@ -22,3 +22,21 @@ h2{
   color: #fff;
   font-weight: 400;
 }
+
+
+@media (max-width: 800px) {
+  h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 16px;
+  }
+}
+@media (max-width: 525px) {
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 12px;
+  }
+}
