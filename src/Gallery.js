@@ -11,7 +11,7 @@ import i7 from './img/i7.jpg'
 import i8 from './img/i8.jpg'
 import i9 from './img/i9.jpg'
 import i10 from './img/i10.jpg'
-import i11 from './img/i11.jpg'
+import i11 from './img/i11.jpg' 
 import i12 from './img/i12.jpg'
 import i13 from './img/i13.jpg'
 import i14 from './img/i14.jpg'
@@ -43,6 +43,18 @@ import i39 from './img/i39.jpg'
 import i40 from './img/i40.jpg'
 import i41 from './img/i41.jpg'
 import i42 from './img/i42.jpg'
+import i43 from './img/i43.jpg'
+import i44 from './img/i44.jpg'
+import i45 from './img/i45.jpg'
+import i46 from './img/i46.jpg'
+import i47 from './img/i47.jpg'
+import i48 from './img/i48.jpg'
+import i49 from './img/i49.jpg'
+import i50 from './img/i50.jpg'
+import i51 from './img/i51.jpg'
+import i52 from './img/i52.jpg'
+import i53 from './img/i53.jpg'
+import i54 from './img/i54.jpg'
 
 
 
@@ -213,6 +225,53 @@ const Gallery = () => {
     {
       id:42,
       imgSrc: i42
+    },
+    {
+      id:43,
+      imgSrc: i43
+    },
+    {
+      id:44,
+      imgSrc: i44    },
+    {
+      id:45,
+      imgSrc: i45
+    },
+    {
+      id:46,
+      imgSrc: i46
+    },
+    {
+      id:47,
+      imgSrc: i47
+    },
+    {
+      id:48,
+      imgSrc: i48
+    },
+    {
+      id:49,
+      imgSrc: i49
+    },
+    {
+      id:50,
+      imgSrc: i50
+    },
+    {
+      id:51,
+      imgSrc: i51
+    },
+    {
+      id:52,
+      imgSrc: i52
+    },
+    {
+      id:53,
+      imgSrc: i53
+    },
+    {
+      id:54,
+      imgSrc: i54
     },
   ]
   const [model, setModel] = useState(false);
