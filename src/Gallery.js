@@ -55,6 +55,11 @@ import i51 from './img/i51.jpg'
 import i52 from './img/i52.jpg'
 import i53 from './img/i53.jpg'
 import i54 from './img/i54.jpg'
+import i55 from './img/i55.jpg'
+import i56 from './img/i56.jpg'
+import i57 from './img/i57.jpg'
+import i58 from './img/i58.jpg'
+import i59 from './img/i59.jpg'
 
 
 
@@ -272,6 +277,26 @@ const Gallery = () => {
     {
       id:54,
       imgSrc: i54
+    },
+    {
+      id:55,
+      imgSrc: i55
+    },
+    {
+      id:56,
+      imgSrc: i56
+    },
+    {
+      id:57,
+      imgSrc: i57
+    },
+    {
+      id:58,
+      imgSrc: i58
+    },
+    {
+      id:59,
+      imgSrc: i59
     },
   ]
   const [model, setModel] = useState(false);
