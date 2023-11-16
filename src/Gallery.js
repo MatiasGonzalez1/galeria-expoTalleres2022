@@ -2,64 +2,64 @@ import React, { useState } from 'react'
 import './gallery.css'
 import CloseIcon from '@mui/icons-material/Close';
 
-import i1 from './img/i1.jpg';
-import i2 from './img/i2.jpg';
-import i3 from './img/i3.jpg'
-import i4 from './img/i4.jpg'
-import i6 from './img/i6.jpg'
-import i7 from './img/i7.jpg'
-import i8 from './img/i8.jpg'
-import i9 from './img/i9.jpg'
-import i10 from './img/i10.jpg'
-import i11 from './img/i11.jpg' 
-import i12 from './img/i12.jpg'
-import i13 from './img/i13.jpg'
-import i14 from './img/i14.jpg'
-import i15 from './img/i15.jpg'
-import i16 from './img/i16.jpg'
-import i17 from './img/i17.jpg'
-import i18 from './img/i18.jpg'
-import i19 from './img/i19.jpg'
-import i20 from './img/i20.jpg'
-import i21 from './img/i21.jpg'
-import i22 from './img/i22.jpg'
-import i23 from './img/i23.jpg'
-import i24 from './img/i24.jpg'
-import i25 from './img/i25.jpg'
-import i26 from './img/i26.jpg'
-import i27 from './img/i27.jpg'
-import i28 from './img/i28.jpg'
-import i29 from './img/i29.jpg'
-import i30 from './img/i30.jpg'
-import i31 from './img/i31.jpg'
-import i32 from './img/i32.jpg'
-import i33 from './img/i33.jpg'
-import i34 from './img/i34.jpg'
-import i35 from './img/i35.jpg'
-import i36 from './img/i36.jpg'
-import i37 from './img/i37.jpg'
-import i38 from './img/i38.jpg'
-import i39 from './img/i39.jpg'
-import i40 from './img/i40.jpg'
-import i41 from './img/i41.jpg'
-import i42 from './img/i42.jpg'
-import i43 from './img/i43.jpg'
-import i44 from './img/i44.jpg'
-import i45 from './img/i45.jpg'
-import i46 from './img/i46.jpg'
-import i47 from './img/i47.jpg'
-import i48 from './img/i48.jpg'
-import i49 from './img/i49.jpg'
-import i50 from './img/i50.jpg'
-import i51 from './img/i51.jpg'
-import i52 from './img/i52.jpg'
-import i53 from './img/i53.jpg'
-import i54 from './img/i54.jpg'
-import i55 from './img/i55.jpg'
-import i56 from './img/i56.jpg'
-import i57 from './img/i57.jpg'
-import i58 from './img/i58.jpg'
-import i59 from './img/i59.jpg'
+import i1 from './img/2023/i1.jpg';
+import i2 from './img/2023/i2.jpg';
+import i3 from './img/2023/i3.jpg'
+import i4 from './img/2023/i4.jpg'
+import i6 from './img/2023/i6.jpg'
+import i7 from './img/2023/i7.jpg'
+import i8 from './img/2023/i8.jpg'
+import i9 from './img/2023/i9.jpg'
+import i10 from './img/2023/i10.jpg'
+import i11 from './img/2023/i11.jpg' 
+import i12 from './img/2023/i12.jpg'
+import i13 from './img/2023/i13.jpg'
+import i14 from './img/2023/i14.jpg'
+import i15 from './img/2023/i15.jpg'
+import i16 from './img/2023/i16.jpg'
+import i17 from './img/2023/i17.jpg'
+import i18 from './img/2023/i18.jpg'
+import i19 from './img/2023/i19.jpg'
+import i20 from './img/2023/i20.jpg'
+import i21 from './img/2023/i21.jpg'
+import i22 from './img/2023/i22.jpg'
+import i23 from './img/2023/i23.jpg'
+import i24 from './img/2023/i24.jpg'
+import i25 from './img/2023/i25.jpg'
+import i26 from './img/2023/i26.jpg'
+import i27 from './img/2023/i27.jpg'
+import i28 from './img/2023/i28.jpg'
+import i29 from './img/2023/i29.jpg'
+import i30 from './img/2023/i30.jpg'
+import i31 from './img/2023/i31.jpg'
+import i32 from './img/2023/i32.jpg'
+import i33 from './img/2023/i33.jpg'
+import i34 from './img/2023/i34.jpg'
+import i35 from './img/2023/i35.jpg'
+import i36 from './img/2023/i36.jpg'
+import i37 from './img/2023/i37.jpg'
+import i38 from './img/2023/i38.jpg'
+import i39 from './img/2023/i39.jpg'
+import i40 from './img/2023/i40.jpg'
+import i41 from './img/2023/i41.jpg'
+import i42 from './img/2023/i42.jpg'
+import i43 from './img/2023/i43.jpg'
+import i44 from './img/2023/i44.jpg'
+// import i45 from './img/2023/i(45.jpg'
+// import i46 from './img/2023/i(46.jpg'
+// import i47 from './img/2023/i(47).jpg'
+// import i48 from './img/2023/i(48).jpg'
+// import i49 from './img/2023/i(49).jpg'
+// import i50 from './img/2023/i(50).jpg'
+// import i51 from './img/2023/i(51).jpg'
+// import i52 from './img/2023/i(52).jpg'
+// import i53 from './img/2023/i(53).jpg'
+// import i54 from './img/2023/i(54).jpg'
+// import i55 from './img/2023/i(55).jpg'
+// import i56 from './img/2023/i(56).jpg'
+// import i57 from './img/2023/i(57).jpg'
+// import i58 from './img/2023/i(58).jpg'
+// import i59 from './img/2023/i(59).jpg'
 
 
 
@@ -211,94 +211,116 @@ const Gallery = () => {
       id:37,
       imgSrc: i37
     },
-    {
-      id:38,
-      imgSrc: i38
+    {id:38,
+    imgSrc: i38
     },
-    {
-      id:39,
-      imgSrc: i39
+    {id:39,
+    imgSrc: i39
     },
-    {
-      id:40,
-      imgSrc: i40
+    {id:40,
+      imgSrc: i40,
     },
-    {
-      id:41,
+    {id:41,
       imgSrc: i41
     },
-    {
-      id:42,
+    {id:42,
       imgSrc: i42
     },
-    {
-      id:43,
+    {id:43,
       imgSrc: i43
     },
-    {
-      id:44,
-      imgSrc: i44    },
-    {
-      id:45,
-      imgSrc: i45
-    },
-    {
-      id:46,
-      imgSrc: i46
-    },
-    {
-      id:47,
-      imgSrc: i47
-    },
-    {
-      id:48,
-      imgSrc: i48
-    },
-    {
-      id:49,
-      imgSrc: i49
-    },
-    {
-      id:50,
-      imgSrc: i50
-    },
-    {
-      id:51,
-      imgSrc: i51
-    },
-    {
-      id:52,
-      imgSrc: i52
-    },
-    {
-      id:53,
-      imgSrc: i53
-    },
-    {
-      id:54,
-      imgSrc: i54
-    },
-    {
-      id:55,
-      imgSrc: i55
-    },
-    {
-      id:56,
-      imgSrc: i56
-    },
-    {
-      id:57,
-      imgSrc: i57
-    },
-    {
-      id:58,
-      imgSrc: i58
-    },
-    {
-      id:59,
-      imgSrc: i59
+    {id:44,
+      imgSrc: i44
     },
   ]
+
+  // //  {
+  //   id:38,
+  //   imgSrc: i38
+  // },
+  // {
+  //   id:39,
+  //   imgSrc: i39
+  // },
+  // {
+  //   id:40,
+  //   imgSrc: i40
+  // },
+  // {
+  //   id:41,
+  //   imgSrc: i41
+  // },
+  // {
+  //   id:42,
+  //   imgSrc: i42
+  // },
+  // {
+  //   id:43,
+  //   imgSrc: i43
+  // },
+  // {
+  //   id:44,
+  //   imgSrc: i44    },
+  // {
+  //   id:45,
+  //   imgSrc: i45
+  // },
+  // {
+  //   id:46,
+  //   imgSrc: i46
+  // },
+  // {
+  //   id:47,
+  //   imgSrc: i47
+  // },
+  // {
+  //   id:48,
+  //   imgSrc: i48
+  // },
+  // {
+  //   id:49,
+  //   imgSrc: i49
+  // },
+  // {
+  //   id:50,
+  //   imgSrc: i50
+  // },
+  // {
+  //   id:51,
+  //   imgSrc: i51
+  // },
+  // {
+  //   id:52,
+  //   imgSrc: i52
+  // },
+  // {
+  //   id:53,
+  //   imgSrc: i53
+  // },
+  // {
+  //   id:54,
+  //   imgSrc: i54
+  // },
+  // {
+  //   id:55,
+  //   imgSrc: i55
+  // },
+  // {
+  //   id:56,
+  //   imgSrc: i56
+  // },
+  // {
+  //   id:57,
+  //   imgSrc: i57
+  // },
+  // {
+  //   id:58,
+  //   imgSrc: i58
+  // },
+  // {
+  //   id:59,
+  //   imgSrc: i59
+  // },
   const [model, setModel] = useState(false);
   const [tempimgSrc, setTempImgSrc] = useState('');
   const getImg = (imgSrc)=>{
